@@ -25,3 +25,25 @@ body{
 }
 
 /*header*/
+
+.header{
+    display:flex;
+    flex-direction:column;
+    height:665px;
+}
+
+.header-title{
+    color:#333333;
+    font-size:36px;
+    line-height:48px;
+    font-weight:bold;
+    margin-top:133px; /*from the logo (not yet added)*/
+}
+
+.header-subtext{
+    color:#333333;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top:30px;
+}

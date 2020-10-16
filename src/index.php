@@ -8,11 +8,16 @@
 </head>
 <body>
 
+<?php include "contents.php";?>
+
 <!--header-->
 
-<div class="container">
+
+
+<div class="container" style="background-color:#F4F6F9;">
     <div class="header">
-        
+        <h1 class="header-title"><?php echo $header[0] ; ?></br><?php echo $header[1];?></h1>
+        <h3 class="header-subtext"><?php echo $header[2] ; ?></br><?php echo $header[3];?></h3>
     </div>
 </div>
     
