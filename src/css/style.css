@@ -8,6 +8,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+@font-face{
+    font-family: 'ProductSans';
+    src:url(/src/fonts/Product\ Sans\ Regular.ttf);
+}
+
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -15,6 +20,51 @@ body{
 .container{
     padding-right:163px;
     padding-left:163px;
+}
+
+.light-blue-title{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color:#00ADEE;
+}
+
+.black-title{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color:#333333;
+    margin-top:27px;
+    margin-bottom:27px;
+}
+
+.black-text-explanation{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color:#4f4f4f;
+    margin-bottom:22px;
+}
+
+.blue-link{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color:#00ADEE;
+    text-decoration:none;
+    margin-bottom:22px;
+}
+
+.blue-link:hover{
+    text-decoration:underline;
 }
 
 @media (max-width:500px){
@@ -32,12 +82,62 @@ body{
     height:665px;
 }
 
+.navbar{
+    height:93px;
+    display:flex;
+}
+
+.logo{
+    display:flex;
+}
+
+.logotype{
+    color: #5282F0;
+    font-weight:bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    margin-top:63px;
+}
+
+.logo-image{
+    margin-top:63px;
+    height:25px;
+    width:25px;
+}
+
+.football{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 188px;
+    top: 86px;
+    transform: rotate(-180deg);
+}
+
+.football-group{
+    position: absolute;
+    left: 74.43%;
+    right: -46.91%;
+    top: 98.05%;
+    bottom: -70.52%;
+    transform: rotate(-180deg);
+}
+
+.header-content{
+    display:flex;
+}
+
+
 .header-title{
     color:#333333;
     font-size:36px;
     line-height:48px;
     font-weight:bold;
     margin-top:133px; /*from the logo (not yet added)*/
+}
+.header-background-section{
+    width:956px;
 }
 
 .header-subtext{
@@ -47,3 +147,159 @@ body{
     line-height: 26px;
     margin-top:30px;
 }
+
+.app-buttons{
+    display:flex;
+    margin-top:57px;
+}
+
+.button{
+    width:156px;
+    height:auto;
+    margin-right:36px;
+}
+
+@media (max-width:500px){
+   
+    .logo{
+        margin:0 auto;
+    }
+    .header-text{
+        height:525px;
+    }
+    .header-content{
+        height:525px;
+    }
+    .header-background-section{
+        display:none;
+    }
+    .header-title{
+        font-size:30px;
+        text-align:center;
+        line-height:40px;
+        letter-spacing: 0.03em;
+    }
+    .header-subtext{
+        text-align:center;
+        font-size:16∏px;
+    }
+    .button{
+        margin-right:0;
+    }
+    .app-buttons{
+        justify-content:space-between;
+    }
+}
+
+/*first section*/
+
+.first-section{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height:592px;
+}
+
+.first-section-left,
+.first-section-right{
+    height:592px;
+    flex-basis:50%;
+    display:flex;
+    align-items:center;
+}
+
+.left-first{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.player-img{
+    vertical-align: middle;
+}
+
+.right-first{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+
+.explanation{
+    width:408px;
+}
+
+@media (max-width:500px){
+    .first-section{
+        display:flex;
+        flex-direction:column-reverse;
+        margin-top:54px;
+    }
+
+    .first-section-left,
+    .first-section-right{
+        flex-basis:100%;
+    }
+
+    .first-section-left{
+        height:360px;
+    }
+
+    .right-first{
+        height:468px;
+        margin-top:54px;
+        text-align:center;
+    }
+
+    .right-first-title{
+        margin-top:54px;
+    }
+
+    .player-img{
+        width:320px;
+    }
+}
+
+/*second section*/
+
+.second-section{
+    height:716px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-basis:100%;
+}
+
+.second-section-left,
+.second-section-right{
+    flex-basis:50%;
+    height:716px;
+    align-items:center;
+}
+
+.second-section-left{
+    padding-left:163px;
+    display:flex;
+    align-items:center;
+}
+
+@media (max-width:500px){
+
+    .second-section{
+        display:flex;
+    
+    }
+    .second-section-left{
+        padding-left:20px;
+        height:410px;
+    }
+    .second-section-right{
+        height:565px;
+        width:428px;
+    }
+    .second-section-left,
+    .second-section-right{
+        flex-basis:100%;
+    }
+}
+
+
+
