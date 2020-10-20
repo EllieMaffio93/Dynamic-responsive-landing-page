@@ -78,5 +78,12 @@
     </div>
 
 
+<!--third section--> 
+
+    <div class="third-section">
+        <div class="inside-third-section" style="background:url(<?php echo $thirdSection ["background"] ;?>) center / cover;"></div>
+    </div>
+
+
 </body>
 </html>

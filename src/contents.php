@@ -53,5 +53,10 @@ $header = array(
             "background" => "img/second_section_background.png"
         ),
     );
+
+    $thirdSection = array(
+        "background" => "img/third_section_background.png"
+
+    );
 ?>
 
