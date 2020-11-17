@@ -81,7 +81,151 @@
 <!--third section--> 
 
     <div class="third-section">
-        <div class="inside-third-section" style="background:url(<?php echo $thirdSection ["background"] ;?>) center / cover;"></div>
+        <div class="inside-third-section" style="background:url(<?php echo $thirdSection ["background"] ;?>) center / cover;">
+            <div class="container">
+            <h3 class="third-section-title"><?php echo $thirdSection ["title"] ;?></h3>
+                <div class="third-a">
+                    <div class="third-a-1">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-a"]["icon-1"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-a"]["text-1"];?></h5>
+                    </div>
+                    <div class="third-a-2">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-a"]["icon-2"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-a"]["text-2"];?></h5>
+                    </div>
+                    <div class="third-a-3">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-a"]["icon-3"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-a"]["text-3"];?></h5>
+                    </div>
+                </div>
+                <div class="third-b">
+                <div class="third-b-1">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-b"]["icon-1"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-b"]["text-1"];?></h5>
+                    </div>
+                    <div class="third-b-2">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-b"]["icon-2"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-b"]["text-2"];?></h5>
+                    </div>
+                    <div class="third-b-3">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-b"]["icon-3"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-b"]["text-3"];?></h5>
+                    </div>
+                </div>
+                <div class="third-c">
+                <div class="third-c-1">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-c"]["icon-1"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-c"]["text-1"];?></h5>
+                    </div>
+                    <div class="third-c-2">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-c"]["icon-2"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-c"]["text-2"];?></h5>
+                    </div>
+                    <div class="third-c-3">
+                        <img class="third-icon" src="<?php echo $thirdSection ["third-c"]["icon-3"];?>" alt="">
+                        <h5 class="third-text"><?php echo $thirdSection ["third-c"]["text-3"];?></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--fourth section with slider-->
+    <div class="slider-title"><?php echo $fourthSection ["title"];?></div>
+    <div class="fourth-section">
+        <div class="slide">
+            <div class="slide-data">
+                <div class="slide-pic">
+                    <img class="slide-pic" src="<?php echo $fourthSection ["slider"]["pic-1"];?>" alt="">
+                </div>
+                <div class="slide-name">
+                    <h5 class="slide-name-text"><?php echo $fourthSection ["slider"]["name-1"];?></h5>
+                </div>
+            </div>
+            <div class="slide-text">
+                <h6 class="slide-desciption"><?php echo $fourthSection ["slider"]["text-1"];?></h6>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-data">
+                <div class="slide-pic">
+                    <img class="slide-pic" src="<?php echo $fourthSection ["slider"]["pic-2"];?>" alt="">
+                </div>
+                <div class="slide-name">
+                    <h5 class="slide-name-text"><?php echo $fourthSection ["slider"]["name-2"];?></h5>
+                </div>
+            </div>
+            <div class="slide-text">
+                <h6 class="slide-desciption"><?php echo $fourthSection ["slider"]["text-2"];?></h6>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-data">
+                <div class="slide-pic">
+                    <img class="slide-pic" src="<?php echo $fourthSection ["slider"]["pic-3"];?>" alt="">
+                </div>
+                <div class="slide-name">
+                    <h5 class="slide-name-text"><?php echo $fourthSection ["slider"]["name-3"];?></h5>
+                </div>
+            </div>
+            <div class="slide-text">
+                <h6 class="slide-desciption"><?php echo $fourthSection ["slider"]["text-3"];?></h6>
+            </div>
+        </div>        
+        <div class="slide">
+            <div class="slide-data">
+                <div class="slide-pic">
+                    <img class="slide-pic" src="<?php echo $fourthSection ["slider"]["pic-4"];?>" alt="">
+                </div>
+                <div class="slide-name">
+                    <h5 class="slide-name-text"><?php echo $fourthSection ["slider"]["name-4"];?></h5>
+                </div>
+            </div>
+            <div class="slide-text">
+                <h6 class="slide-desciption"><?php echo $fourthSection ["slider"]["text-4"];?></h6>
+            </div>
+        </div>        
+        <div class="slide">
+            <div class="slide-data">
+                <div class="slide-pic">
+                    <img class="slide-pic" src="<?php echo $fourthSection ["slider"]["pic-5"];?>" alt="">
+                </div>
+                <div class="slide-name">
+                    <h5 class="slide-name-text"><?php echo $fourthSection ["slider"]["name-5"];?></h5>
+                </div>
+            </div>
+            <div class="slide-text">
+                <h6 class="slide-desciption"><?php echo $fourthSection ["slider"]["text-5"];?></h6>
+            </div>
+        </div>
+    </div>
+
+    <!--fifth section-->
+
+    <div class="fifth-section">
+        <h3 class="black-title"><?php echo $fifthSection ["title"];?></h3>
+        <div class="container">
+            <div class="fifth-section-flex">
+                <div class="fifth-1">
+                    <img class="fifth-icon" src="<?php echo $fifthSection ["icons"]["icon-1"];?>" alt="">
+                </div>
+                <div class="fifth-2">
+                    <img class="fifth-icon" src="<?php echo $fifthSection ["icons"]["icon-2"];?>" alt="">
+                </div>
+                <div class="fifth-3">
+                    <img class="fifth-icon" src="<?php echo $fifthSection ["icons"]["icon-3"];?>" alt="">
+                </div>
+                <div class="fifth-4">
+                    <img class="fifth-icon" src="<?php echo $fifthSection ["icons"]["icon-4"];?>" alt="">
+                </div>
+                <div class="fifth-5">
+                    <img class="fifth-icon" src="<?php echo $fifthSection ["icons"]["icon-5"];?>" alt="">
+                </div>
+                <div class="fifth-6">
+                    <img class="fifth-icon" src="<?php echo $fifthSection ["icons"]["icon-6"];?>" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
 
